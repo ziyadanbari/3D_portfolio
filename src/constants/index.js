@@ -30,10 +30,7 @@ export const navLinks = [
     id: "about",
     title: "About",
   },
-  {
-    id: "work",
-    title: "Work",
-  },
+
   {
     id: "contact",
     title: "Contact",
@@ -198,9 +195,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Chat Application",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web Chat application reached with a lot of features such: Text, Video, Image and Voice Message",
     tags: [
       {
         name: "react",
@@ -211,20 +208,20 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "express",
         color: "pink-text-gradient",
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/ziyadanbari/ChatVibe.git",
   },
   {
-    name: "Job IT",
+    name: "ClixPulse",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "ClixPulse is an Web application to buy Tik-Tok Followers, Shares, Likes and Comments",
     tags: [
       {
-        name: "react",
+        name: "next.js",
         color: "blue-text-gradient",
       },
       {
@@ -232,28 +229,27 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "stripe",
         color: "pink-text-gradient",
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    // source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    name: "Uber Clone",
+    description: "This is an Uber Clone for cross platform mobile application",
     tags: [
       {
-        name: "nextjs",
+        name: "reactnative",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "express",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "stripe",
         color: "pink-text-gradient",
       },
     ],
